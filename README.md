@@ -15,29 +15,33 @@ Analysis Tasks
 -  Monthly trends in loan approvals and disbursements.
   
 3. Default Risk Analysis
-● Correlation Between Loan Attributes and Defaults:
-o Calculate correlations between Loan_Amount, Interest_Rate, Credit_Score, and Default_Flag (a binary indicator for default).
-● Pairwise Correlation Analysis:
-o Create a heatmap to visualize the correlations between key variables, such as EMI_Amount, Overdue_Amount, and Default_Amount.
-● Correlation Between Branch Metrics and Defaults:
-o Analyze the relationship between branch performance metrics (e.g., Delinquent_Loans, Loan_Disbursement_Amount) and default rates.
-5. Branch and Regional Performance
-● Rank branches by:
-o Loan disbursement volume.
-o Processing time effi ciency.
-o Default rates and recovery rates.
-● Compare branch performance across regions.
-6. Customer Segmentation
-● Segment customers by income, credit score, and loan status.
-● Identify high-risk and high-value customer groups.
-● Analyze repayment behavior across segments.
-7. Advanced Statistical Analysis
+-  Correlation Between Loan Attributes and Defaults:
+-  Calculate correlations between Loan_Amount, Interest_Rate, Credit_Score, and Default_Flag (a binary indicator for default).
+-  Pairwise Correlation Analysis:
+-  Create a heatmap to visualize the correlations between key variables, such as EMI_Amount, Overdue_Amount, and Default_Amount.
+-  Correlation Between Branch Metrics and Defaults:
+-  Analyze the relationship between branch performance metrics (e.g., Delinquent_Loans, Loan_Disbursement_Amount) and default rates.
+  
+4. Branch and Regional Performance
+- Rank branches by:
+- Loan disbursement volume.
+- Processing time effi ciency.
+- Default rates and recovery rates.
+- Compare branch performance across regions.
+  
+5. Customer Segmentation
+- Segment customers by income, credit score, and loan status.
+- Identify high-risk and high-value customer groups.
+- Analyze repayment behavior across segments.
+  
+6. Advanced Statistical Analysis
 1. Correlation Analysis for Default Risks:
-o Examine the correlation between Credit_Score, Loan_Amount, Interest_Rate, Overdue_Amount, and Default_Flag.
+- Examine the correlation between Credit_Score, Loan_Amount, Interest_Rate, Overdue_Amount, and Default_Flag.
 2. Pairwise Correlation Heatmap:
-o Generate a heatmap to visualize correlations among key variables like EMI_Amount, Recovery_Rate, and Default_Amount.
+- Generate a heatmap to visualize correlations among key variables like EMI_Amount, Recovery_Rate, and Default_Amount.
 3. Branch-Level Correlation:
-o Explore the relationship between branch performance metrics (Delinquent_Loans, Loan_Disbursement_Amount, Recovery_Rate) and overall effi ciency.
+- Explore the relationship between branch performance metrics (Delinquent_Loans, Loan_Disbursement_Amount, Recovery_Rate) and overall effi ciency.
+
 7. Transaction and Recovery Analysis
 ● Analyze penalty payments and overdue trends.
 ● Evaluate recovery rates by Default_Reason and Legal_Action.
