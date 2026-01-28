@@ -5,8 +5,8 @@ Analysis Tasks
 1. Data Quality and Preparation
 -  Validate and clean the datasets.
 -  Check for missing values, duplicate entries, and inconsistent data.
-● Standardize date formats and remove irrelevant columns.
-● Handle outliers in numeric columns like Loan_Amount, Interest_Rate, and Default_Amount.
+-  Standardize date formats and remove irrelevant columns.
+-  Handle outliers in numeric columns like Loan_Amount, Interest_Rate, and Default_Amount.
 
 3. Descriptive Analysis
 ● Summarize and visualize key metrics:
