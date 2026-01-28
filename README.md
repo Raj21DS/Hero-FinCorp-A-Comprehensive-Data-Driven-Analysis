@@ -1,84 +1,36 @@
 # Hero-FinCorp-A-Comprehensive-Data-Driven-Analysis
 
-Perform a comprehensive analysis of Hero FinCorp's loan portfolio and customer behavior to understand: 1. Default Risks and Factors: - Identifying customer and loan attributes contributing to defaults. - Trends in defaults across branches, regions, and loan types. 2. Branch and Regional Effi ciency: - Evaluating branch performance in loan disbursement, processing time, and recovery rates. 3. Customer Insights: - Analyzing demographics, credit scores, and repayment patterns. - Segmenting customers to identify high-value and high-risk groups. 4. Profi tability: - Understanding key drivers of profi tability through loan disbursement trends, interest income, and recovery effi ciency. All tasks and analyses will collectively help Hero FinCorp optimize its loan approval process, reduce defaults, and improve branch effi ciency, enabling data-driven decision-making.
-Dataset Descriptions
-Customer Demographics
-➢ Contains details about Hero FinCorp's customers.
-➢ Key Columns:
-○ Customer_ID: Unique identifi er for each customer.
-○ Full_Name: Name of the customer.
-○ Credit_Score: Numerical credit rating of the customer.
-○ Annual_Income: Yearly income of the customer.
-○ Employment_Status: Employment type (e.g., Salaried, Self-Employed).
-Loan Data
-➢ Details of all active and closed loans.
-➢ Key Columns:
-- Loan_ID: Unique identifi er for each loan.
-- Customer_ID: Customer associated with the loan.
-- Loan_Amount: Principal loan amount.
-- Interest_Rate: Annual interest rate on the loan.
-- Loan_Term: Loan repayment duration in months.
-Loan Applications
-➢ Tracks the loan application process.
-➢ Key Columns:
-- Application_ID: Unique identifi er for each loan application.
-- Approval_Status: Whether the application was approved or rejected.
-- Rejection_Reason: Reason for rejection (if applicable).
-- Processing Fee: Fee charged during the application process.
-- Application_Date: Date of application submission.
-Transactions
-➢ Record all fi nancial transactions related to loans.
-➢ Key Columns:
-- Transaction_ID: Unique identifi er for each transaction.
-- Loan_ID: Associated loan for the transaction.
-- Transaction_Type: Type of transaction (e.g., EMI Payment, Penalty).
-- Transaction_Amount: Monetary amount of the transaction.
-- Transaction_Date: Date of the transaction.
-Default Records
-➢ Details of customers who defaulted on their loans.
-➢ Key Columns:
-○ Default_ID: Unique identifi er for each default case.
-○ Loan_ID: Associated loan for the default.
-○ Default_Amount: Amount remaining unpaid.
-○ Recovery_Amount: Amount recovered post-default.
-○ Default_Date: Date when the default occurred.
-Branch Information
-➢ Contains information about Hero FinCorp branches.
-➢ Key Columns:
-○ Branch_ID: Unique identifi er for each branch.
-○ Region: Geographic location of the branch.
-○ Total_Active_Loans: Number of loans currently active in the branch.
-○ Delinquent_Loans: Number of overdue loans in the branch.
-○ Loan_Disbursement_Amount: Total loan disbursement volume.
+
 Analysis Tasks
 1. Data Quality and Preparation
 ● Validate and clean the datasets.
 ● Check for missing values, duplicate entries, and inconsistent data.
 ● Standardize date formats and remove irrelevant columns.
 ● Handle outliers in numeric columns like Loan_Amount, Interest_Rate, and Default_Amount.
-2. Descriptive Analysis
+
+3. Descriptive Analysis
 ● Summarize and visualize key metrics:
 o Distribution of Loan_Amount, EMI_Amount, and Credit_Score.
 o Regional trends in loan disbursement and defaults.
 o Monthly trends in loan approvals and disbursements.
-3. Default Risk Analysis
+4. Default Risk Analysis
 ● Correlation Between Loan Attributes and Defaults:
 o Calculate correlations between Loan_Amount, Interest_Rate, Credit_Score, and Default_Flag (a binary indicator for default).
 ● Pairwise Correlation Analysis:
 o Create a heatmap to visualize the correlations between key variables, such as EMI_Amount, Overdue_Amount, and Default_Amount.
 ● Correlation Between Branch Metrics and Defaults:
 o Analyze the relationship between branch performance metrics (e.g., Delinquent_Loans, Loan_Disbursement_Amount) and default rates.
-4. Branch and Regional Performance
+5. Branch and Regional Performance
 ● Rank branches by:
 o Loan disbursement volume.
 o Processing time effi ciency.
 o Default rates and recovery rates.
 ● Compare branch performance across regions.
-5. Customer Segmentation
+6. Customer Segmentation
 ● Segment customers by income, credit score, and loan status.
 ● Identify high-risk and high-value customer groups.
 ● Analyze repayment behavior across segments.
-6. Advanced Statistical Analysis
+7. Advanced Statistical Analysis
 1. Correlation Analysis for Default Risks:
 o Examine the correlation between Credit_Score, Loan_Amount, Interest_Rate, Overdue_Amount, and Default_Flag.
 2. Pairwise Correlation Heatmap:
