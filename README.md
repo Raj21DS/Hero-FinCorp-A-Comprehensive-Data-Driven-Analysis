@@ -40,16 +40,17 @@ Analysis Tasks
 - Pairwise Correlation Heatmap:
 - Generate a heatmap to visualize correlations among key variables like EMI_Amount, Recovery_Rate, and Default_Amount.
 - Branch-Level Correlation:
-- Explore the relationship between branch performance metrics (Delinquent_Loans, Loan_Disbursement_Amount, Recovery_Rate) and overall effi ciency.
+ Explore the relationship between branch performance metrics (Delinquent_Loans, Loan_Disbursement_Amount, Recovery_Rate) and overall efficiency.
 
 7. Transaction and Recovery Analysis
-● Analyze penalty payments and overdue trends.
-● Evaluate recovery rates by Default_Reason and Legal_Action.
-● Compare recovery rates across regions and branches.
+- Analyze penalty payments and overdue trends.
+- Evaluate recovery rates by Default_Reason and Legal_Action.
+- Compare recovery rates across regions and branches.
+  
 8. EMI Analysis
-● Analyze the relationship between EMI amounts and default probabilities.
-● Identify thresholds for EMI amounts where defaults are most likely.
-● Compare EMI trends across loan types.
+- Analyze the relationship between EMI amounts and default probabilities.
+- Identify thresholds for EMI amounts where defaults are most likely.
+- Compare EMI trends across loan types.
 9. Loan Application Insights
 ● Calculate approval and rejection rates for loan applications.
 ● Identify the most common reasons for loan rejection.
