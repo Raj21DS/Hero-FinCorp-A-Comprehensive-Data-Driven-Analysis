@@ -8,12 +8,13 @@ Analysis Tasks
 -  Standardize date formats and remove irrelevant columns.
 -  Handle outliers in numeric columns like Loan_Amount, Interest_Rate, and Default_Amount.
 
-3. Descriptive Analysis
-● Summarize and visualize key metrics:
-o Distribution of Loan_Amount, EMI_Amount, and Credit_Score.
-o Regional trends in loan disbursement and defaults.
-o Monthly trends in loan approvals and disbursements.
-4. Default Risk Analysis
+2. Descriptive Analysis
+-  Summarize and visualize key metrics:
+-  Distribution of Loan_Amount, EMI_Amount, and Credit_Score.
+-  Regional trends in loan disbursement and defaults.
+-  Monthly trends in loan approvals and disbursements.
+  
+3. Default Risk Analysis
 ● Correlation Between Loan Attributes and Defaults:
 o Calculate correlations between Loan_Amount, Interest_Rate, Credit_Score, and Default_Flag (a binary indicator for default).
 ● Pairwise Correlation Analysis:
