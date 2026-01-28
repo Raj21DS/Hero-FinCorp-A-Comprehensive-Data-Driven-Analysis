@@ -35,12 +35,9 @@ Analysis Tasks
 - Analyze repayment behavior across segments.
   
 6. Advanced Statistical Analysis
-- Correlation Analysis for Default Risks:
-- Examine the correlation between Credit_Score, Loan_Amount, Interest_Rate, Overdue_Amount, and Default_Flag.
-- Pairwise Correlation Heatmap:
-- Generate a heatmap to visualize correlations among key variables like EMI_Amount, Recovery_Rate, and Default_Amount.
-- Branch-Level Correlation:
- Explore the relationship between branch performance metrics (Delinquent_Loans, Loan_Disbursement_Amount, Recovery_Rate) and overall efficiency.
+- Correlation Analysis for Default Risks: Examine the correlation between Credit_Score, Loan_Amount, Interest_Rate, Overdue_Amount, and Default_Flag.
+- Pairwise Correlation Heatmap: Generate a heatmap to visualize correlations among key variables like EMI_Amount, Recovery_Rate, and Default_Amount.
+- Branch-Level Correlation: Explore the relationship between branch performance metrics (Delinquent_Loans, Loan_Disbursement_Amount, Recovery_Rate) and overall efficiency.
 
 7. Transaction and Recovery Analysis
 - Analyze penalty payments and overdue trends.
